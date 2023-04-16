@@ -1,8 +1,3 @@
-# modules in project
-- DEBOUNCE
-- CAPTURE
-- MEMORY
-- PLAYBACK
 # external inputs
 - Raw Button
 - Reset Button
