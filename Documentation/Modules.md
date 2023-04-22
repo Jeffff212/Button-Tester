@@ -6,16 +6,17 @@
 # module IO
 ## DEBOUNCE
 ### parameters
-- CLOCK_SIZE
-- CLOCK_START
-- CLOCK_LIMIT
-- DEBOUNCE_SCORE_DIGIT_SIZE
-- POSEDGE_SCORE
-- NEGEDGE_SCORE
+- CLOCK_SIZE: clock bit size
+- CLOCK_START: clock starting value
+- CLOCK_LIMIT: clock value when the output is registered
 ### inputs
 - input: Raw button signal
-- clock
-- reset
+- clock: cycles Debounce Counter
+- reset: 
+  - Sets state to OFF
+  - Sets output to OFF
+  - Sets clock_counter to CLOCK_START
+  - pause function and change Dclk, Debounce Counter, out, and state to OFF
 ### outputs
 - output
 ## CAPTURE
