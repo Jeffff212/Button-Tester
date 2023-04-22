@@ -5,13 +5,24 @@
 - Next Button
 # module IO
 ## DEBOUNCE
+### parameters
+- CLOCK_SIZE
+- CLOCK_START
+- CLOCK_LIMIT
+- DEBOUNCE_SCORE_DIGIT_SIZE
+- POSEDGE_SCORE
+- NEGEDGE_SCORE
 ### inputs
-- input
+- input: Raw button signal
 - clock
 - reset
 ### outputs
 - output
 ## CAPTURE
+### parameters
+- WORD_SIZE
+- WORD_QTY
+- ADDR_SIZE
 ### inputs
 - input
 - clock
@@ -22,6 +33,11 @@
 - w_addr
 - write
 ## MEMORY
+### parameter
+- WORD_SIZE
+- WORD_QTY
+- WORD_DEFAULT
+- ADDR_SIZE
 ### inputs
 - clock
 - reset
@@ -35,6 +51,10 @@
 - r_done
 - r_data
 ## PLAYBACK
+### parameter
+- WORD_SIZE
+- WORD_QTY
+- ADDR_SIZE
 ### inputs
 - clock
 - reset
@@ -46,21 +66,3 @@
 - r_addr
 - read
 - sequence
-# module parameters
-## DEBOUNCE
-- CLOCK_SIZE
-- CLOCK_START
-- CLOCK_LIMIT
-## CAPTURE
-- WORD_SIZE
-- WORD_QTY
-- ADDR_SIZE
-## MEMORY
-- WORD_SIZE
-- WORD_QTY
-- WORD_DEFAULT
-- ADDR_SIZE
-## PLAYBACK
-- WORD_SIZE
-- WORD_QTY
-- ADDR_SIZE
