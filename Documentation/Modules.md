@@ -4,13 +4,13 @@
 - Home Button
 - Next Button
 # module IO
-## DEBOUNCE
+## [DEBOUNCE](modules\debounce\debounce.md)
 ### parameters
 - CLOCK_SIZE: clock bit size
 - CLOCK_START: clock starting value
 - CLOCK_LIMIT: clock value when the output is registered
 ### inputs
-- input: Raw button signal
+- in: Raw button signal
 - clock: cycles Debounce Counter
 - reset: 
   - Sets state to OFF
@@ -18,7 +18,7 @@
   - Sets clock_counter to CLOCK_START
   - pause function and change Dclk, Debounce Counter, out, and state to OFF
 ### outputs
-- output
+- out: Debounced button signal
 ## CAPTURE
 ### parameters
 - WORD_SIZE
