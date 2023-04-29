@@ -19,7 +19,7 @@
   - pause function and change Dclk, Debounce Counter, out, and state to OFF
 ### outputs
 - out: Debounced button signal
-## CAPTURE
+## [CAPTURE](modules\capture\capture.md)
 ### parameters
 - WORD_SIZE
 - WORD_QTY
@@ -37,8 +37,8 @@
 ### parameter
 - WORD_SIZE
 - WORD_QTY
-- WORD_DEFAULT
-- ADDR_SIZE
+- WORD_INIT
+- ADDRESS_SIZE
 ### inputs
 - clock
 - reset
