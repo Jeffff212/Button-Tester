@@ -1,0 +1,13 @@
+# .gitignore patters for iCE40 icestick
+
+.*
+!.gitignore
+*.history
+*.*~
+apio.ini
+hardware.asc
+hardware.bin
+hardware.json
+*.out
+*.vcd
+*.gtkw
