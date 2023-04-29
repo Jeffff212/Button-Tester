@@ -1,4 +1,4 @@
-module DeBounce # (
+module debounce # (
 	parameter CLOCK_SIZE = 9,
 	parameter CLOCK_START = 9'b000000000,
 	parameter CLOCK_LIMIT = 9'd300
