@@ -4,7 +4,7 @@ module debounce # (
 	parameter CLOCK_LIMIT = 9'd300
 ) (
 // INPUTS
-	input clk,
+	input clock,
 	input in,
 	input reset,
 // Outputs
@@ -19,7 +19,7 @@ reg [CLOCK_SIZE-1:0] clock_counter;
 
 reg state = OFF;
 
-always @ (posedge clk or posedge reset) begin
+always @ (posedge clock or posedge reset) begin
 	if (reset) begin
 		clock_counter <= CLOCK_START;
 		out <= OFF;
