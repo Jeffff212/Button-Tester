@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="UaiEWxelY9RIttDDJoo2" name="Page-1">
-        <mxGraphModel dx="1221" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="933" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="250" y="260" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;if input = ~buttonstate &amp;amp;&amp;amp; ~reset&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;-------------------------------------------------&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;buffer =&amp;gt; buttonstate, overflow, duration&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;store =&amp;gt; on&lt;/span&gt;" style="curved=1;endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="6" target="5" edge="1">
+                <mxCell id="7" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;if input = ~buttonstate &amp;amp;&amp;amp; ~reset&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;-------------------------------------------------&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;buffer &amp;lt;= buttonstate, overflow, duration&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;store &amp;lt;= on&lt;/span&gt;" style="curved=1;endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="6" target="5" edge="1">
                     <mxGeometry x="0.0608" y="-27" width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="660" y="310" as="sourcePoint"/>
                         <mxPoint x="710" y="260" as="targetPoint"/>
@@ -23,8 +23,8 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;overflow =&amp;gt; off&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;duration =&amp;gt; 1&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;buttonstate =&amp;gt; input&lt;/span&gt;" style="endArrow=classic;html=1;entryX=0.838;entryY=0.911;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;curved=1;" parent="1" source="5" target="6" edge="1">
-                    <mxGeometry x="0.0736" y="-28" width="50" height="50" relative="1" as="geometry">
+                <mxCell id="8" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;overflow&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&amp;lt;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;off&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;duration&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&amp;lt;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;1&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;buttonstate&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&amp;lt;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;input&lt;/span&gt;" style="endArrow=classic;html=1;entryX=0.838;entryY=0.911;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;curved=1;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry x="-0.1048" y="-30" width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="645" y="380" as="sourcePoint"/>
                         <mxPoint x="695" y="330" as="targetPoint"/>
                         <Array as="points">
@@ -33,8 +33,8 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="" style="curved=1;endArrow=classic;html=1;entryX=0.02;entryY=0.608;entryDx=0;entryDy=0;exitX=0;exitY=0.333;exitDx=0;exitDy=0;sourcePerimeterSpacing=0;arcSize=20;comic=0;jiggle=50;startSize=6;endSize=8;entryPerimeter=0;exitPerimeter=0;" parent="1" source="6" target="6" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxCell id="9" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;if input == buttonstate &amp;amp;&amp;amp; ~reset&lt;br&gt;-------------------------------------------&lt;br&gt;duration&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&amp;nbsp;duration + 1&lt;/span&gt;" style="curved=1;endArrow=classic;html=1;entryX=0.02;entryY=0.608;entryDx=0;entryDy=0;exitX=0;exitY=0.333;exitDx=0;exitDy=0;sourcePerimeterSpacing=0;arcSize=20;comic=0;jiggle=50;startSize=6;endSize=8;entryPerimeter=0;exitPerimeter=0;" parent="1" source="6" target="6" edge="1">
+                    <mxGeometry x="-0.0219" y="-30" width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="150" y="340" as="sourcePoint"/>
                         <mxPoint x="210" y="400" as="targetPoint"/>
                         <Array as="points">
@@ -43,10 +43,8 @@
                             <mxPoint x="180" y="330"/>
                             <mxPoint x="240" y="330"/>
                         </Array>
+                        <mxPoint as="offset"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="14" value="duration =&amp;gt; duration + 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="285" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="Capture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="775" y="285" width="60" height="30" as="geometry"/>
@@ -66,7 +64,7 @@
                 <mxCell id="30" value="Commit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="745" y="570" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="27" target="28" edge="1">
+                <mxCell id="31" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;if store&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;-------------------------&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;write &amp;lt;= on&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;w_data &amp;lt;=&amp;nbsp;buffer&lt;br&gt;&lt;/span&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="27" target="28" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="625" y="490" as="sourcePoint"/>
                         <mxPoint x="745" y="530" as="targetPoint"/>
@@ -75,7 +73,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="28" target="27" edge="1">
+                <mxCell id="32" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;if writedone&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;---------------&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;store =&amp;gt; off&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;write =&amp;gt; off&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(42, 37, 47);&quot;&gt;buffer =&amp;gt; 0&lt;br&gt;w_addr &amp;lt;= w_addr+1&lt;br&gt;&lt;/span&gt;" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="28" target="27" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="625" y="490" as="sourcePoint"/>
                         <mxPoint x="675" y="440" as="targetPoint"/>
@@ -84,11 +82,14 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="if store&lt;br&gt;-------------------------&lt;br&gt;write =&amp;gt; on&lt;br&gt;writedata =&amp;gt; buffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="555" y="510" width="210" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="if writedone&lt;br&gt;---------------&lt;br&gt;store =&amp;gt; off&lt;br&gt;write =&amp;gt; off&lt;br&gt;buffer =&amp;gt; 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="625" y="640" width="70" height="30" as="geometry"/>
+                <mxCell id="41" value="if reset&lt;br&gt;-------------------&lt;br&gt;w_addr &amp;lt;= 0" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="27" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="460" y="640"/>
+                            <mxPoint x="390" y="580"/>
+                            <mxPoint x="460" y="540"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
